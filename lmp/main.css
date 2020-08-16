@@ -1,0 +1,31 @@
+body {
+  color: #51c9c2;
+  font-size: 25px;
+  background-color: #fcfff5;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  background-color: #51c9c2;
+  color: #fcfff5;
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+}
+
+h2 {
+  background-color: #febac6;
+  color: #fcfff5;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
