@@ -29,3 +29,35 @@ img {
   margin-right: auto;
   width: 40%;
 }
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 1200px) {
+  .column {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .column {
+    width: 33.33%;
+  }
+}
+@media (max-width: 768px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .column {
+    width: 100%;
+  }
+}
